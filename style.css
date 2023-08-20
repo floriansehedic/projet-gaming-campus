@@ -11,6 +11,10 @@
   }
   p {
     font-size: 0.8rem;
+    
+  }
+  p::first-letter {
+    text-transform: uppercase;
   }
   a {
     color: inherit;
@@ -18,6 +22,7 @@
   }
   body {
     min-height: 100vh;
+    width: 100%;
   }
   .navbar {
     display: flex;
@@ -32,7 +37,7 @@
     font-weight: bold;
     padding: 0 20px 0 20px;
   }
-  a:hover {
+  .navbar a:hover {
     color: purple;
     padding: 36px 0 0 0;
     border-top: 5px solid purple;
@@ -42,3 +47,69 @@
     padding: 10px;
     border-radius: 50px;
   }
+  .main-header {
+    height: 670px;
+    background: url(./assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-header h1 {
+    text-transform: uppercase;
+    color: white;
+    padding: 50px 0 50px 0;
+  }
+
+  button {
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    background: transparent;
+    padding: 15px;
+    cursor: pointer;
+  }
+  .header-text {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-text p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .icon-part {
+    background: #151515;
+  }
+  .icon-part-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 695px;
+  }
+  .list-icon-part {
+    color: white;
+    text-align: center;
+    
+    margin: 0 100px 0 100px;
+  }
+  .list-icon-part h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  .list-icon-part p {
+    font-size: 1.3rem;
+    padding: 15px 0 30px 0;
+  }
+  .lip-logo {
+    padding: 0 0 60px 0;
+  }
+  
