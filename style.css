@@ -126,8 +126,7 @@ padding: 8px 16px;
 .list-icon-part {
   color: white;
   text-align: center;
-  
-  margin: 0 100px 0 100px;
+  margin-top: 40px;
 }
 .list-icon-part h3 {
   text-transform: uppercase;
